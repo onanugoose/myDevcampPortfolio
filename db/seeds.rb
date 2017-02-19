@@ -56,7 +56,7 @@ puts "3 Topics created"
       velit. Nam elementum dignissim dapibus. Duis 
       accumsan tristique mauris a efficitur." ,
       main_image: "http://placehold.it/600x400",
-      thumb_image: "http://placehold.it/350x200",
+      thumb_image: "http://placehold.it/350x200"
     )
   end
   

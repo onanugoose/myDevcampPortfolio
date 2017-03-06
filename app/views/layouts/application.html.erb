@@ -17,7 +17,15 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
           
-          <div id="page-bg"></div>
+          <%= video_tag(
+            'HardDrivePhotojpeg.mp4',
+            id: 'page-bg',
+            autoplay: true,
+            loop: true,
+            muted: true,
+            poster: 'home_HardDrivePhotojpeg.mp4'
+            )
+            %>
 
           <%= render "shared/application_nav" %>
 
